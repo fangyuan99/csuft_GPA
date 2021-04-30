@@ -94,7 +94,7 @@ def calGPA():
     print('-'*70)
 
 
-if __name__ == "__main__":
+def csuftGPA():
     while True:
         judge=input("请选择使用本地版还是在线版? 1.在线版（第一次使用或者没有成绩表格数据选在线版）， 2.本地版， 3.退出:")
         if judge!='2' and judge!='1' and judge!='3':
@@ -115,3 +115,5 @@ if __name__ == "__main__":
             continue
         elif judge=='3':
             exit(0)
+if __name__ == '__main__':
+    csuftGPA()

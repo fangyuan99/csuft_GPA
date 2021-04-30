@@ -24,7 +24,7 @@ date: 2021-04-07 17:47:32
 
 #### 安装驱动
 
-1.本项目是用`selenium`配合[chromedriver](http://npm.taobao.org/mirrors/chromedriver)实现的，首先需要查询自己的Chrome版本号。在Chrome浏览器地址栏输入:`chrome://version/`
+1.本项目是用`selenium`配合`Chromedriver`[点击下载](http://npm.taobao.org/mirrors/chromedriver)实现的，首先需要查询自己的Chrome版本号。在Chrome浏览器地址栏输入:`chrome://version/`
 
 ![](https://i.vgy.me/IxEF2G.png)
 
@@ -43,6 +43,18 @@ date: 2021-04-07 17:47:32
 ### 有编程基础
 
 可以自己从文末的仓库里面查看源码，自己可以添加功能......
+
+### 可视化新版
+
+`view.py`是2021年4月30日写的新版，有可视化的界面，不会编程的同学下载对应的`Chromedriver`放到`view.zip`的解压文件夹里面，点击`view.zip`即可使用
+
+![](https://i.vgy.me/Hg7wz2.png)
+
+![](https://i.vgy.me/zDPmMu.png)
+
+![](https://i.vgy.me/zfywKi.png)
+
+
 
 ## 下载地址
 

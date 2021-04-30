@@ -20,6 +20,7 @@ def getResult_vpn():
     password = input("密码:")
     print("正在加载，马上就好~")
 
+
     # 后台运行
     try:
         option=webdriver.ChromeOptions()
@@ -65,16 +66,6 @@ def getResult_vpn():
     print("登陆教务系统中，请等待")
     url='https://vpn.csuft.edu.cn/web/1/http/0/authserver.csuft.edu.cn/authserver/login?service=http%3A%2F%2Fjwgl.csuft.edu.cn%2F'
     driver.get(url)
-
-    #判断教务系统界面是否加载完毕
-    try:
-        element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, '//*[@id="Top1_divLoginName"]'))
-        )
-        print("成功进入教务系统界面")
-    except Exception as result:
-        print(result)
-    print("正在登陆教务系统")
     # 输入账号--通过html的id属性定位输入位置
     user_login = driver.find_element_by_id('mobileUsername')
     user_login.send_keys(username)
